@@ -1,3 +1,4 @@
+/* Fixes the notification bars being too high.*/
 .notice-stack {
     position: static !important;
     left: auto !important;
@@ -6,6 +7,8 @@
     z-index: 11 !important;
 }
 
+/* Euphoria dark theme. Made by @Xyzzy (@CylonicRaider) in 2015 -- 2017.
+ * Based off prior work by @chromakode. */
 body {
   background: black !important;
   opacity: 0.85 !important; /* To taste */
