@@ -1,0 +1,156 @@
+.notice-stack {
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    height: 0 !important;
+    z-index: 11 !important;
+}
+
+body {
+  background: black !important;
+  opacity: 0.85 !important; /* To taste */
+}
+#ui {
+  background: black !important;
+}
+#ui-panes {
+  background: #202020 !important;
+}
+.main-pane .top-bar .expand-info-pane,
+.main-pane .top-bar .collapse-info-pane {
+  filter: brightness(20) !important;
+  -webkit-filter: brightness(20) !important;
+}
+.info-pane, .sidebar-pane {
+  background: black !important;
+}
+.top-bar, .secondary-top-bar {
+  background: #101010 !important;
+}
+.info-pane *, .top-bar *, .secondary-top-bar *, .sidebar-pane * {
+  color: white !important;
+}
+.nick, .message-emote {
+  color: black !important;
+  -webkit-filter: saturate(2) brightness(.75) !important;
+  filter: saturate(2) brightness(.75) !important;
+}
+.top-bar button .inner, .top-bar button .inner *,
+.top-bar button .content {
+  color: black !important;
+}
+.info-pane .thread-list-container {
+  border: none !important;
+}
+.info-pane .thread-list-container:after {
+  box-shadow: none !important;
+}
+.thread-popup .top-line {
+  background: #202020 !important;
+}
+.thread-popup .messages-container {
+  background: black !important;
+}
+.info-pane .thread-list-container .info:hover,
+.info-pane .thread-list-container .info.selected {
+  background: black !important;
+}
+.info-pane .mode-selector {
+  background: #444 !important;
+}
+/*.info-pane .mode-selector button .inner {
+  filter: grayscale(1) invert(1) !important;
+  -webkit-filter: grayscale(1) invert(1) !important;
+}
+.info-pane .mode-selector button.selected .inner {
+  filter: grayscale(1) invert(1) brightness(0) !important;
+  -webkit-filter: grayscale(1) invert(1) brightness(0) !important;
+}*/
+.info-pane .notification {
+  background: none !important;
+}
+.messages-content {
+  background: black !important;
+}
+.messages-container, .youtube-pane .notice {
+  background: #202020 !important;
+}
+.timestamps-visible .messages-container {
+  background:
+  linear-gradient(to right, #202020 72px, transparent 72px),
+  linear-gradient(to bottom, black 40px, black) !important
+}
+.replies .entry:before {
+  background-color: transparent !important;
+}
+.indent-line, .replies .entry:before, .expand-rest .inner:before {
+  filter: brightness(0.5) !important;
+  -webkit-filter: brightness(0.5) !important;
+}
+.messages .replies.inline.focused > .indent-line,
+.replies .entry::before {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+.expand-rest {
+  color: #202020 !important;
+}
+.entry {
+  background: rgba(0, 0, 0, .15) !important;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5) !important;
+}
+.entry .nick {
+  background: rgba(255, 255, 255, 1) !important;
+}
+.entry input.nick {
+  z-index: 10 !important;
+}
+.entry-focus .entry, .expand-rest.focus-target {
+  background: black !important;
+  color: white !important;
+  box-shadow: 0 0 5px white !important;
+}
+.entry-focus .entry textarea, .line .message, .message-preview,
+.message-preview a {
+  color: white !important;
+  text-shadow: 0 1px 1px black !important;
+}
+.message-emote {
+  text-shadow: none !important;
+}
+.mention > .line .message {
+  color: black !important;
+  text-shadow: none !important;
+}
+.message a {
+  color: #0080ff !important;
+}
+.expando:after {
+  background: none !important;
+}
+.last-visit hr {
+  border-color: darkgray !important;
+}
+.last-visit .label {
+  color: darkgray !important;
+}
+.spinner {
+  filter: invert(1) brightness(2) !important;
+  -webkit-filter: invert(1) brightness(2) !important;
+}
+.new-count {
+  color: white !important;
+}
+.welcome, .welcome * {
+  background: black !important;
+  color: white !important;
+}
+.welcome .message, .welcome .message * {
+  background: #004000 !important;
+}
+.youtube-pane .notice {
+  color: white !important;
+}
+#ui.disconnected .main-pane .top-bar {
+  background: #404040 !important;
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Euphoria Extension",
+  "version": "0.2.0",
+  "description": "Extension for fixing notice stack and dark theme. Credit to @Xyzzy for the lights-off theme at kalium.xyz/xyzzy/lights-off.css",
+ 
+  "content_scripts": [{
+    "css": ["main.css"],
+    "matches": ["https://euphoria.io/*"]
+  }]
+ 
+}
